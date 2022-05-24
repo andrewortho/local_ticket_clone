@@ -9,8 +9,6 @@ const unsigned int startAt = 0;
 const string arbExpand_param = "changelog";
 
 
-//example demonstrating consolidation of bulk issue get requests into local objects
-
 
 int main(int argc, char** argv) {
 
