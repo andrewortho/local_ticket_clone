@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
     headers = curl_slist_append(headers, "Content-Type: application/json");
 
 
-    string URL, URLParams, hString, URLBase = "https://allmantesting.atlassian.net/rest/api/3/search/?", authBase = getAuth(), API_KEY = getAPI();
+    string URL, URLParams, hString, URLBase = "{URLBASE}", authBase = getAuth(), API_KEY = getAPI();
 
     CURLMcode mCode;
     auto mCurl = curl_multi_init();
